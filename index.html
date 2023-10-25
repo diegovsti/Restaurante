@@ -1,24 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <!-- tags de meta dados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cardapio Online, a sua melhor maneira de pedir seu prato preferido.">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./_assets/css/fontawesome.css">
+    <link rel="stylesheet" href="./_assets/css/style.css">
+
+    <!-- titulo -->
     <title>Restaurante - Seja Bem-Vindo!</title>
 </head>
+
 <body>
-    <header class="cabecalho"></header>
+    <header class="cabecalho">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg pl-0 pr-0">
+                <div class="logo">
+                    <a href="#" class="navbar-brand">
+                        <img src="./_assets/img/logo.png" alt="Menu Restaurante" class="img_logo">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="navbarNavDropdown">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                
+
+                <section class="collapse navbar-collapse menu" id="navbarNavDropdown" >
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#reserva">Reservas</a>
+                        </li>
+                        
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#servico">Serviços</a>
+                        </li>
+
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#cardapio">Cardápio</a>
+                        </li>
+                        
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#depoimento">Depoimentos</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+        </section>
+    </header>
 
     <main class="banner"></main>
 
-    <section class="servicos"></section>
+    <section class="servicos" id="servico"></section>
 
-    <section class="cardapio"></section>
+    <section class="cardapio" id="cardapio"></section>
 
-    <section class="depoimentos"></section>
+    <section class="depoimentos" id="depoimento"></section>
 
-    <section class="reserva"></section>
+    <section class="reservas" id="reserva"></section>
 
     <footer class="rodape"></footer>
+
+
+    <!-- scripts -->
+    <script src="./_assets/js/jquery-1.12.4.min.js"></script>
+    <script src="./_assets/js/modernizr-3.5.0.min.js"></script>
+    <script src="./_assets/js/bootstrap.min.js"></script>
+    <script src="./_assets/js/popper.min.js"></script>
+    <script src="./_assets/js/script.js"></script>
 </body>
+
 </html>
