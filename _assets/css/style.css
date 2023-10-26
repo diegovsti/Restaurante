@@ -3,27 +3,29 @@
     font-family: 'PoppinsMedium';
     src: url('../fonts/Poppins-Medium.otf');
 }
+
 @font-face {
-    font-family: 'PoppinsRegular' ;
+    font-family: 'PoppinsRegular';
     src: url('../fonts/Poppins-Regular.otf');
 }
 
-:root{
+:root {
     --color_background: #fffdf7;
     --color_black: #212121;
     --color_text: #4f4f4f;
     --color_text_out: #90908e;
     --color_primary: #ffb000;
     --color_secondary: #fff2cc;
-    --color_white:#ffffff;
+    --color_white: #ffffff;
     --color_red: #e74c3c;
-    --color_green:#2ecc71;
+    --color_green: #2ecc71;
     --color_separate: #cccccc;
-    
+
     --font-family: 'PoppinsRegular', 'Rubik', sans-serif;
 }
 
-html,body{
+html,
+body {
     background-color: var(--color_background);
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -32,26 +34,27 @@ html,body{
 }
 
 
-.logo .img_logo{
+.logo .img_logo {
     width: 160px;
     max-width: 100%;
 }
 
-.menu{
+.menu {
     font-size: 1.6rem;
 }
-.menu ul li{
+
+.menu ul li {
     padding: 1rem;
 }
 
-.nav-link{
+.nav-link {
     color: var(--color_black);
     padding: 0 3.5rem !important;
     transition: all .3s ease;
     font-weight: bold;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: var(--color_red);
     transition: all .3s ease;
 }
-
