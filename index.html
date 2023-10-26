@@ -20,26 +20,34 @@
     <header class="cabecalho">
         <section class="container">
             <nav class="navbar navbar-expand-lg pl-0 pr-0">
+                <!-- logo -->
                 <div class="logo">
                     <a href="#" class="navbar-brand">
                         <img src="./_assets/img/logo.png" alt="Menu Restaurante" class="img_logo">
                     </a>
                 </div>
 
+                <!-- botão responsivo -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown">
                     <span class="navbar-toggler-icon">
                         <i class="fas fa-bars"></i>
                     </span>
                 </button>
 
-
-                <section class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                <!-- menu de navegação -->
+                <section class="collapse navbar-collapse menu" id="navbarNavDropdown" onclick="handleMenuMobile()">
                     <ul class="navbar-nav ml-auto mr-auto">
                         <li class="nav-item"> <a class="nav-link" href="#reserva">Reservas</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#servico">Serviços</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#cardapio">Cardápio</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#depoimento">Depoimentos</a> </li>
                     </ul>
+
+                    <a href="btn btn-white btn-icon">
+                        Meu Carrinho <span class="icone">
+                            <i class="fa fa-shopping-bag"></i>
+                        </span>
+                    </a>
                 </section>
             </nav>
         </section>

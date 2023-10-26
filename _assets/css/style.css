@@ -1,3 +1,13 @@
+/* fonts do projeto */
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+@font-face {
+    font-family: 'PoppinsRegular' ;
+    src: url('../fonts/Poppins-Regular.otf');
+}
+
 :root{
     --color_background: #fffdf7;
     --color_black: #212121;
@@ -9,12 +19,16 @@
     --color_red: #e74c3c;
     --color_green:#2ecc71;
     --color_separate: #cccccc;
+    
+    --font-family: 'PoppinsRegular', 'Rubik', sans-serif;
 }
 
 html,body{
     background-color: var(--color_background);
     scroll-behavior: smooth;
     font-size: 62.5%;
+    font-family: var(--font-family);
+    color: var(--color_text);
 }
 
 
@@ -32,5 +46,12 @@ html,body{
 
 .nav-link{
     color: var(--color_black);
-    padding: 0 3.5rem;
+    padding: 0 3.5rem !important;
+    transition: all .3s ease;
+    font-weight: bold;
 }
+.nav-link:hover{
+    color: var(--color_red);
+    transition: all .3s ease;
+}
+
