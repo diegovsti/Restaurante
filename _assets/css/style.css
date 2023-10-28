@@ -20,7 +20,6 @@
     --color_red: #e74c3c;
     --color_green: #2ecc71;
     --color_separate: #cccccc;
-
     --font-family: 'PoppinsRegular', 'Rubik', sans-serif;
 }
 
@@ -32,7 +31,6 @@ body {
     font-family: var(--font-family);
     color: var(--color_text);
 }
-
 
 .logo .img_logo {
     width: 160px;
